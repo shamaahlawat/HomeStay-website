@@ -1,0 +1,120 @@
+.homestayinfo {
+  text-align: center;
+  font-family: Montserrat;
+  min-height: 100vh;
+}
+.homestayinfo .homeStay {
+  font-size: 29px;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+.homestayinfo .description {
+  font-style: italic;
+}
+.homestayinfo .span {
+  color: #ffc80a;
+}
+.homestayinfo .flex-box {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-weight: 900;
+  position: relative;
+  bottom: 32px;
+}
+.homestayinfo .flex-box .text {
+  font-size: 10px;
+}
+.homestayinfo .flex-box .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homestayinfo textarea {
+  min-height: 105px;
+}
+.homestayinfo .circle {
+  width: 4rem;
+  height: 4rem;
+  background: #ffc80a;
+  border-radius: 50%;
+  line-height: 4rem;
+  cursor: pointer;
+}
+.homestayinfo .border {
+  border-top: 2px solid #ffc80a;
+  margin-top: 73px;
+}
+.homestayinfo ul {
+  text-align: left;
+}
+.homestayinfo Button {
+  background: #8f75be;
+  border-radius: 49.5px;
+  width: 160px;
+  height: 48px;
+  margin: 43px;
+  font-weight: 500;
+  border: none;
+}
+.homestayinfo .paddingTop-7 {
+  padding-top: 7px;
+}
+.homestayinfo .marginBottom-12 {
+  margin-bottom: 15px;
+}
+.homestayinfo .marginBottom-24 {
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .homestayinfo .map iframe {
+    width: 230px;
+  }
+  .homestayinfo .congrats {
+    font-size: 32px;
+  }
+}
+.homestayinfo .color {
+  color: #9fa3a7;
+}
+.homestayinfo .form-control {
+  color: black;
+}
+.homestayinfo .imageSection {
+  width: 100%;
+  background-color: #fafafa;
+  border: solid 1px #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9fa3a7;
+}
+.homestayinfo .radio input[type="radio"]:checked {
+  background: pink !important;
+}
+.homestayinfo .button {
+  background: white;
+  color: black;
+  width: 188px;
+  height: 48px;
+  border-radius: 24px;
+  border: solid 3px #ffc80a;
+  font-size: 12px;
+  font-weight: 700;
+}
+.homestayinfo .congrats {
+  font-size: 36px;
+}
+@media only screen and (max-width: 767px) {
+  .homestayinfo .congrats {
+    font-size: 32px;
+  }
+  .homestayinfo .imageSection {
+    flex-direction: column;
+  }
+  .homestayinfo .imageSection .inputImage {
+    margin-top: 10px;
+  }
+}

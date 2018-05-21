@@ -1,0 +1,44 @@
+{
+  "name": "pole-web-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "can-use-dom": "^0.1.0",
+    "events": "^1.1.1",
+    "flexbox-react": "^4.4.0",
+    "invariant": "^2.2.2",
+    "lodash": "^4.17.4",
+    "muicss": "^0.9.16",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-addons-pure-render-mixin": "^15.6.0",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.6.1",
+    "react-google-autocomplete": "^1.0.13",
+    "react-motion": "^0.5.0",
+    "react-overlays": "^0.7.0",
+    "react-redux": "^5.0.5",
+    "react-router": "^3.0.0",
+    "react-router-dom": "^4.1.1",
+    "react-router-page-transition": "^3.0.2",
+    "react-router-redux": "^4.0.8",
+    "react-spinner": "^0.2.7",
+    "react-tap-event-plugin": "^2.0.1",
+    "recompose": "^0.23.5",
+    "redux": "^3.7.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "custom-react-scripts": "0.0.23",
+    "babel-runtime": "^6.11.6",
+    "react-dev-utils": "^0.5.0",
+    "redux-devtools": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

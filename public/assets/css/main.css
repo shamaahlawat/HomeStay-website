@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+body {
+    font-family: 'Roboto', serif !important;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+
+/*common*/
+
+.withPadding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.withoutPadding {
+    padding: 0 !important;
+}
+
+.noPadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.noPaddingLeft {
+    padding-left: 0 !important;
+}
+
+.noPaddingRight {
+    padding-right: 0 !important;
+}
+
+.noMargin {
+    margin: 0 !important;
+}
+
+.noMarginTop {
+    margin-top: 0 !important;
+}
+
+.noMarginBottom {
+    margin-bottom: 0 !important;
+}
+
+.wordBreak {
+    word-break: break-word !important;
+}
+
+.float-none {
+    float: none;
+}
+
+.clear-both {
+    clear: both !important;
+}
+
+.clear-right {
+    clear: right !important;
+}
+
+.clear-left {
+    clear: left !important;
+}
+
+.clear-none {
+    clear: none !important;
+}
+
+.isRelative {
+    position: relative;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.disabled {
+    cursor: not-allowed !important;
+}
+
+.whiteBackground {
+    background: #fff;
+}
+
+.circularItem {
+    border-radius: 50%;
+}
+
+.actionBtn {
+    background: #e54343;
+    color: #fff;
+    padding: 5px 20px 7px 20px;
+    border-radius: 20px;
+}
+
+.actionBtn>a,
+.actionBtn>a:focus,
+.actionBtn>a:hover {
+    color: inherit !important;
+    outline: none;
+    text-decoration: inherit !important;
+}
+
+.RedLinkText {
+    color: #fd342a;
+    cursor: pointer;
+}
+
+.white {
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .MobileView {
+        display: none !important;
+    }
+    .DesktopView {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .DesktopView {
+        display: none !important;
+    }
+    .MobileView {
+        display: block !important;
+    }
+}
+
+.react-spinner {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    left: 50%;
+}
+
+.react-spinner_bar {
+    -webkit-animation: react-spinner_spin 1.2s linear infinite;
+    -moz-animation: react-spinner_spin 1.2s linear infinite;
+    animation: react-spinner_spin 1.2s linear infinite;
+    border-radius: 5px;
+    background-color: black;
+    position: absolute;
+    width: 20%;
+    height: 7.8%;
+    top: -3.9%;
+    left: -10%;
+}
+
+@keyframes react-spinner_spin {
+    0% { opacity: 1; }
+    100% { opacity: 0.15; }
+}
+
+@-moz-keyframes react-spinner_spin {
+    0% { opacity: 1; }
+    100% { opacity: 0.15; }
+}
+
+@-webkit-keyframes react-spinner_spin {
+    0% { opacity: 1; }
+    100% { opacity: 0.15; }
+}
